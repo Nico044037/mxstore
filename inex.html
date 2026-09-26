@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Redirect after 3 seconds -->
+    <meta http-equiv="refresh" content="3;url=https://shop-mxservers.tebex.store/">
+
+    <title>MXServers | Redirecting...</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background:
+                radial-gradient(circle at top, #172554 0%, #0b1120 45%, #050814 100%);
+            color: white;
+        }
+
+        .card {
+            width: min(90%, 500px);
+            padding: 45px 35px;
+            text-align: center;
+            background: rgba(17, 24, 39, 0.85);
+            border: 1px solid rgba(96, 165, 250, 0.2);
+            border-radius: 20px;
+            box-shadow: 0 25px 80px rgba(0, 0, 0, 0.45);
+            backdrop-filter: blur(12px);
+        }
+
+        .logo {
+            width: 75px;
+            height: 75px;
+            margin: 0 auto 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 18px;
+            background: linear-gradient(135deg, #3b82f6, #6366f1);
+            font-size: 30px;
+            font-weight: 800;
+            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);
+        }
+
+        h1 {
+            margin: 0 0 10px;
+            font-size: 30px;
+        }
+
+        p {
+            margin: 0;
+            color: #9ca3af;
+            font-size: 16px;
+        }
+
+        .loader {
+            width: 46px;
+            height: 46px;
+            margin: 28px auto;
+            border: 4px solid #1f2937;
+            border-top-color: #60a5fa;
+            border-radius: 50%;
+            animation: spin 0.9s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 8px;
+            padding: 13px 24px;
+            border-radius: 10px;
+            background: #3b82f6;
+            color: white;
+            text-decoration: none;
+            font-weight: 700;
+            transition: 0.2s;
+        }
+
+        .button:hover {
+            background: #60a5fa;
+            transform: translateY(-2px);
+        }
+
+        .small {
+            margin-top: 22px;
+            font-size: 13px;
+            color: #6b7280;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <div class="logo">MX</div>
+
+        <h1>MXServers Store</h1>
+
+        <p>
+            You're being securely redirected to our official store.
+        </p>
+
+        <div class="loader"></div>
+
+        <a
+            class="button"
+            href="https://shop-mxservers.tebex.store/"
+        >
+            Continue to Store
+        </a>
+
+        <div class="small">
+            Redirecting automatically in a few seconds...
+        </div>
+
+    </div>
+
+    <script>
+        setTimeout(function () {
+            window.location.href = "https://shop-mxservers.tebex.store/";
+        }, 3000);
+    </script>
+
+</body>
+</html>
